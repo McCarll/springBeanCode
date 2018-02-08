@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(produces = "application/json")
 public class Controller {
 
-    @ApiOperation(value = "Резервирование счета")
+    @ApiOperation(value = "GetInfo")
     @RequestMapping(value = "/getInfo", method = RequestMethod.GET)
     public ResponseEntity getInfo(){
         return ResponseEntity
